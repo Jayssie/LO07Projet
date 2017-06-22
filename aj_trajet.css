@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-5-26, 0:20:53
+    Author     : Clement
+*/
+
+div#po{display:block;
+    top: 0px;
+    left:340px;
+    width: 900px;
+    position:relative;
+    border:1px solid #00f;
+}
+div#cadre{
+    display: block;
+    position:absolute;
+    top:120px;
+    left: 348px;
+    width:900px;
+    border: 1px solid burlywood; 
+    
+}
+#pied_1 {        
+    font-size: 24px;
+    font-family:Trebuchet MS;
+    position:absolute;
+    top: 550px;
+    
+    background-color: background;
+    height:45px;     
+    text-align:center;
+}
+#pied_2 {
+    background-color: #99bbbb;
+    position:absolute;
+    top:600px;
+    
+    font-size: 14px;  
+    height:1500px;  
+    text-align:left;
+}
+
+
+#colonne1{
+    color: #181A12;
+    position:absolute;  
+    top:350px;   
+    width:300px;  
+    height:200px;
+}
+#colonne2{
+    color: #181A12;
+    position:absolute;
+    top:350px;  
+    left:300px;  
+    width:300px;  
+    height:200px; 
+}
+#colonne3{
+    color: #181A12;
+    position:absolute;  
+    top:350px;  
+    left: 600px;    
+    width:300px;  
+    height:200px;
+}
+/* Mention de copyright */
+#copyright {
+    background: #4F94CD;
+    font-size: 1em;
+    text-align: right;
+    width: 90%;
+    margin-left: 85px;
+    margin-right: 85px;
+    position:absolute;
+    top:1300px;
+}

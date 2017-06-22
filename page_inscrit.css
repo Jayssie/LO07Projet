@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-5-20, 0:00:05
+    Author     : Clement
+*/
+#po{display:block;
+                top: 0px;
+                left:340px;
+                position:fixed;
+                border:1px solid #00f;
+            }
+            #pos{display:block;                 
+                 top:110px;
+                 left: 400px;
+                 width: 760px;
+                 position:absolute;
+                 font-family: "Curlz MT";
+                 font-size: 26px;
+                 text-align: center;
+            }           
+            .error {color: #FF0000;}
+            .fauxmdpf{color:#FF0000;font-family: "Times New Roman",serif;font-size: 15px;}
+            :required {
+                border-color: #88a;
+                -webkit-box-shadow: 0 0 2px rgba(0, 0, 255, .5);
+                box-shadow: 0 0 2px rgba(0, 0, 255, .5);
+            }
+            form {
+                width:400px;
+                margin: 30px auto;
+                position: absolute;
+                top: 190px;
+                left:840px;
+            }           
+            input, select {
+                font-family: "Times New Roman", serif;
+                border:2px solid #969696;
+                font-size:14px;
+                width:200px;
+                min-height:25px;
+                display:block;
+                margin-bottom:10px;
+                margin-top:10px;
+                -webkit-border-radius:5px;
+                border-radius:5px;
+                text-align: center;
+            }             

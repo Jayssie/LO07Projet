@@ -1,0 +1,198 @@
+/* ==============================================
+   FEUILLE DE STYLES DES GABARITS HTML/CSS --- 11
+   � Elephorm & Alsacreations.com
+   Conditions d'utilisation:
+   http://creativecommons.org/licenses/by/2.0/fr/
+   ============================================== */
+
+
+/* --- COULEURS --- */
+
+/* Note: vous pouvez modifier simplement l'aspect de ce gabarit en modifiant
+   uniquement les couleurs de fond (propri�t�s background) et les couleurs
+   du texte (propri�t� color).
+   Pour modifier la disposition des blocs, voir plus bas dans la feuille de
+   styles la partie �positionnement�. */
+
+/* General */
+body {
+    color: #000000;
+    background: #f4f4f4;
+    font-family: Arial,Helvetica,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-backface-visibility: hidden;
+}
+#global {
+    color: #000000;
+    background: #FFFFFF;
+}
+a {
+    color: #FF6533;
+}
+a:hover, a:focus {
+    color: #FF4C00;
+}
+strong {
+    color: #A1B55D;
+}
+
+/* Conteneur central */
+#centre {
+    background: url(img/11-colgauche.png) repeat-y left top;
+}
+#centre-bis {
+    background: url(img/11-coldroite.png) repeat-y right top;
+}
+
+/* Contenu principal_1 */
+#principal_1{
+    position:relative;
+    padding: 0px 0px 800px 0px;
+    background: #FFFFFF;
+}
+#navigation{
+    color: #000000;
+    position: absolute;
+    top:10px;  
+    left:20px;    
+    width:230px;  
+    height:100%;
+    text-align: left;
+    border-right: 2px solid #f4f4f4;
+}
+#navigation table{
+    border-radius:5px;
+    font-family: 'Meiryo';
+    text-align:center;
+    cursor:pointer;
+    rules:rows;
+}
+tr.change:hover
+{
+    background-color:#ffff99;
+}
+
+#principal_contenue{
+    color: #000000;
+    position:absolute;
+    top:10px; 
+    left:260px;
+    right:20px;  
+    height:100%;
+    text-align: left;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+#principal_contenue table{
+    background-color:#f4f4f4;
+    border-radius:5px;
+    border: 1px solid #8DB6CD;
+    margin: 10px;
+}
+#principal_contenue th{
+    background-color:#88a;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#principal_contenue tr{
+    background-color:#F0F8FF;
+}
+
+#principal_1_contenue h1 {
+    color: #191970;
+    font-family: Trebuchet MS;
+    font-size: 30px;
+    margin: 15px 0px 0px 10px;
+}
+#principal_1_contenue h2 {
+    color: #000000;
+    font-family:Avril;
+    font-size: 15px;
+    margin: 0px 0px 0px 10px;
+}
+
+#colonne1{
+    color: #181A12;
+    position:absolute;  
+    top:10px;  
+    left:20px;    
+    width:300px;  
+    height:200px;
+}
+#colonne2{
+    color: #181A12;
+    position:absolute;
+    top:10px;  
+    left:338px;  
+    width:300px;  
+    height:200px; 
+}
+#colonne3{
+    color: #181A12;
+    position:absolute;  
+    top:10px;  
+    right:20px;    
+    width:300px;  
+    height:200px;
+}
+
+/* --- POSITIONNEMENT --- */
+
+/* Page */
+body {
+    padding: 0px 5px;
+}
+#global {
+    width: 85%;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+/* En-tete */
+#entete {
+    border-bottom:2px solid #f4f4f4;
+    padding:10px 0px 10px 0px;
+}
+#entete h1 {
+    margin: 0;
+}
+#entete h1 img {
+    float: left;
+    margin: 7px 20px 10px 0;
+}
+#entete p{
+    float: right;
+    margin: 10px 100px 10px 0;
+}
+
+/* Pied de page */
+#pied_1 {
+    color: #104E8B;
+    background: #4F94CD;
+    position:relative; 
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    font-family:Trebuchet MS;
+    height:45px;  
+    text-align:center;
+}
+#pied_2 {
+    background: #FFFFFF;
+    position:relative; 
+    margin: 0px 0px 10px 0px;
+    font-size: 13px;  
+    height:300px;  
+    text-align:left;
+}
+
+/* Mention de copyright */
+#copyright {
+    background: #4F94CD;
+    font-size: 1em;
+    text-align: right;
+    width: 85%;
+    margin-left: 85px;
+    margin-right: 85px;
+}

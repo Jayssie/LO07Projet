@@ -1,0 +1,228 @@
+/* ==============================================
+   FEUILLE DE STYLES DES GABARITS HTML/CSS --- 11
+   � Elephorm & Alsacreations.com
+   Conditions d'utilisation:
+   http://creativecommons.org/licenses/by/2.0/fr/
+   ============================================== */
+
+
+/* --- COULEURS --- */
+
+/* Note: vous pouvez modifier simplement l'aspect de ce gabarit en modifiant
+   uniquement les couleurs de fond (propri�t�s background) et les couleurs
+   du texte (propri�t� color).
+   Pour modifier la disposition des blocs, voir plus bas dans la feuille de
+   styles la partie �positionnement�. */
+
+/* General */
+body {
+    color: #000000;
+    background: #f4f4f4;
+    font-family: Arial,Helvetica,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-backface-visibility: hidden;
+}
+#global {
+    color: #000000;
+    background: #FFFFFF;
+}
+/*a {
+    color: #FF6533;
+}
+*/
+a:hover, a:focus {
+    color: #FF4C00;
+}
+strong {
+    color: #A1B55D;
+}
+
+/* Conteneur central */
+#centre {
+    background: url(img/11-colgauche.png) repeat-y left top;
+}
+#centre-bis {
+    background: url(img/11-coldroite.png) repeat-y right top;
+}
+
+/* Contenu principal_1 */
+#principal_1{
+    padding: 0px 0px 420px 0px;
+    opacity: 0.45;
+    filter:alpha(Opacity=50); 
+    background-image: url("../images/index_4.jpg");height=643 width=1029;no-repeat fixed;
+}
+#principal_1_contenue{
+    color: #000000;
+    position: absolute;
+    left：10px；top：10px;
+}
+#principal_1_contenue h1 {
+    color: #191970;
+    font-family: Trebuchet MS;
+    font-size: 30px;
+    margin: 15px 0px 0px 10px;
+}
+#principal_1_contenue h2 {
+    color: #000000;
+    font-family:Avril;
+    font-size: 15px;
+    margin: 0px 0px 0px 10px;
+}
+#fomulaire {
+    color: #000000;
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    margin: 50px 143px 0px 180px;
+}
+#principal_1_contenue .commentaire {
+    color: #969696;
+    font-family:Trebuchet MS;
+    font-size: 20px;
+    margin: 70px;
+    text-align:center;
+}
+
+/* Contenu principal_2 */
+#principal_2{
+    color: #181A12;
+    position:relative;  
+    margin:10px;  
+    height:270px;  
+    text-align:center;
+}
+#txt{
+    font-family: Avril;
+    font-size: 15px;
+    color: #969696;
+    position:absolute;  
+    bottom:70px;  
+    left:0px;   
+    width:100%;  
+    height:15px;  
+    text-align:center;
+    // border:solid 1px #0000FF;  //
+}
+#img{
+    border-top:1px solid #f4f4f4;
+    color: #181A12;
+    position:absolute;  
+    bottom:0px;  
+    left:0px;   
+    width:100%;  
+    height:65px;  
+    text-align:center;
+}
+#colonne1{
+    color: #181A12;
+    position:absolute;  
+    top:10px;  
+    left:20px;    
+    width:300px;  
+    height:200px;
+}
+#colonne2{
+    color: #181A12;
+    position:absolute;
+    top:10px;  
+    left:338px;  
+    width:300px;  
+    height:200px; 
+}
+#colonne3{
+    color: #181A12;
+    position:absolute;  
+    top:10px;  
+    right:20px;    
+    width:300px;  
+    height:200px;
+}
+#principal_2 a {
+    color: #332510;
+}
+#principal_2 a:hover, #principal_2 a:focus {
+    color: #6E5122;
+}
+#principal_2 strong {
+    color: #181A12;
+}
+
+/* Contenu principal_3 */
+#principal_3 {
+    position:relative;  
+    margin:10px 0px 0px 0px;  
+    height:270px;  
+    text-align:center;
+    color: #181A12;
+    background: #F0F8FF;
+    text-align:left;
+}
+#principal_3 a {
+    color: #332510;
+}
+#principal_3 a:hover, #principal_3 a:focus {
+    color: #6E5122;
+}
+#principal_3 strong {
+    color: #181A12;
+}
+/* --- POSITIONNEMENT --- */
+
+/* Page */
+body {
+    padding: 0px 5px;
+}
+#global {
+    width: 85%;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+/* En-tete */
+#entete {
+    border-bottom:2px solid #f4f4f4;
+    padding:10px 0px 10px 0px;
+}
+#entete h1 {
+    margin: 0;
+}
+#entete h1 img {
+    float: left;
+    margin: 7px 20px 10px 0;
+}
+#entete p{
+    float: right;
+    margin: 10px 100px 10px 0;
+}
+
+/* Pied de page */
+#pied_1 {
+    color: #104E8B;
+    background: #4F94CD;
+    position:relative; 
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    font-family:Trebuchet MS;
+    height:45px;  
+    text-align:center;
+}
+#pied_2 {
+    background: #FFFFFF;
+    position:relative; 
+    margin: 0px 0px 10px 0px;
+    font-size: 13px;  
+    height:300px;  
+    text-align:left;
+}
+
+/* Mention de copyright */
+#copyright {
+    background: #4F94CD;
+    font-size: 1em;
+    text-align: right;
+    width: 85%;
+    margin-left: 85px;
+    margin-right: 85px;
+}
